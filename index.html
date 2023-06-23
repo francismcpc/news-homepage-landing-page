@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/vite.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="sass/main.scss" />
+    <title>News Homepage | Landing Page</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="header__logo">
+        <img src="/assets/logo.svg" alt="logo" />
+      </a>
+
+      <nav class="header__nav">
+        <ul class="header__nav-list">
+          <li class="header__nav-item">
+            <a href="#" class="header__nav-link"> Home </a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#" class="header__nav-link"> New </a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#" class="header__nav-link"> Popular </a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#" class="header__nav-link"> Trending </a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#" class="header__nav-link"> Categories </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__hamburger">
+        <div class="header__hamburger-bar"></div>
+        <div class="header__hamburger-bar"></div>
+        <div class="header__hamburger-bar"></div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero__grid">
+          <div class="hero__grid-item--1">
+            <picture>
+              <source
+                srcset="assets/image-web-3-mobile.jpg"
+                media="(max-width: 400px)"
+              />
+              <source
+                srcset="assets/image-web-3-desktop.jpg"
+                media="(min-width: 401px)"
+              />
+              <img
+                src="assets/image-web-3-desktop.jpg"
+                alt="image-hero-desktop"
+              />
+            </picture>
+          </div>
+          <div class="hero__grid-item hero__grid-item--2">
+            <h2 class="hero__title">New</h2>
+            <article>
+              <h3 class="hero__subtitle">Hydrogen VS Electric Cars</h3>
+              <p class="hero__paragraph">
+                Will hydrogen-fueled cars ever catch up<br />
+                to EVs?
+              </p>
+            </article>
+            <hr />
+            <article>
+              <h3 class="hero__subtitle">The Downsides of AI Artistry</h3>
+              <p class="hero__paragraph">
+                What are the possible adverse effects of<br />
+                on-demand AI image generation?
+              </p>
+            </article>
+            <hr />
+            <article>
+              <h3 class="hero__subtitle">Is VC Funding Drying Up?</h3>
+              <p class="hero__paragraph">
+                Private funding by VC firms is down 50%<br />
+                YOY. We take a look at what that means.
+              </p>
+            </article>
+          </div>
+          <div class="hero__grid-item--3">
+            <h1 class="hero__heading">The Bright Future of Web 3.0?</h1>
+          </div>
+          <div class="hero__grid-item--4">
+            <p class="hero__paragraph">
+              We dive into the next evolution of the web that claims to put the
+              power of the platforms back into the hands of the people. But is
+              it really fulfilling its promise?
+            </p>
+            <button class="hero__button">Read More</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="products">
+        <div class="products__wrapper">
+          <article class="products__item">
+            <img src="/assets/image-retro-pcs.jpg" alt="image-retro-pcs" />
+            <div class="products__content">
+              <span class="products__number">01</span>
+              <h3 class="products__title">Reviving Retro PCs</h3>
+              <p class="products__description">
+                What happens when old PCs<br />
+                are given modern upgrades?
+              </p>
+            </div>
+          </article>
+          <article class="products__item">
+            <img src="/assets/image-top-laptops.jpg" alt="image-top-laptops" />
+            <div class="products__content">
+              <span class="products__number">02</span>
+              <h3 class="products__title">Top 10 Laptops of 2022</h3>
+              <p class="products__description">
+                Our best picks for various<br />
+                needs and budgets.
+              </p>
+            </div>
+          </article>
+          <article class="products__item">
+            <img
+              src="/assets/image-gaming-growth.jpg"
+              alt="image-gaming-growth"
+            />
+            <div class="products__content">
+              <span class="products__number">03</span>
+              <h3 class="products__title">The Growth of Gaming</h3>
+              <p class="products__description">
+                How the pandemic has sparked<br />
+                fresh opportunities.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="js/index.js"></script>
+  </body>
+</html>

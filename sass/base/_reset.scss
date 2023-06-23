@@ -1,0 +1,35 @@
+@use "../utils/variables" as v;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: v.$off-white;
+  font-family: v.$font-family;
+  margin: 0 auto;
+  max-width: 1240px;
+}
+
+img {
+  max-width: 100%;
+}
+
+main {
+  padding: 0 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: v.$dark-grayish-blue;
+  font-weight: 600;
+
+  &:hover {
+    color: v.$soft-red;
+  }
+}
