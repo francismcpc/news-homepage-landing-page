@@ -1,4 +1,4 @@
-# typemaster-keyboard-landing-page - Frontend Mentor
+# news-homepage-landing-page - Frontend Mentor
 Frontend Mentor Challenge. Coded by Francis Macaspac
 
 # Live Preview Site
